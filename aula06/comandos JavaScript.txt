@@ -1,0 +1,65 @@
+Data Types
+
+principais tipo primitivos
+
+number
+
+string
+
+
+exemplo de utilização do script dentro do HTML5
+
+
+dentro do body vai ter a seguinte tag:
+
+
+<script>
+	
+var nome = window.promt('Qual o seu nome?') - Comando usado para fazer perguntas
+window.alert('É um grande prazer em te conhecer, ' + nome + '!') - contanenação unindo um alerta + a variavel 
+
+
+<script>
+
+window.promt sempre ira retornar um valor em string, então quando for adição será necessário fazer a conversão para number
+
+a conversão pode ser feita utilizando os seguintes comandos:
+
+number.parseInt(n) - inteiros
+number.parseFloat(n) - quebrados
+
+UTILIZAR o 'Number(n)' pois o JS decida qual vai ser o valor
+
+
+para converter de numero > string
+
+
+string(n)
+
+n.toString()
+
+S{s} - usa template string
+
+var s = 'JavaScript'
+
+s.length - quantas caracteres a string tem
+s.toUpperCase() - tudo para maiusculas
+s.toLowerCase() - tudo para a minuscula
+
+
+document.write('')
+
+mais casas nos numeros quebrados:
+
+n1.toFixed(2) - vai adicionar 2 casas
+
+n1.toFixed(2).replace
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}
+
+
+
+
+
+
+
