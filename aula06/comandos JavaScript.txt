@@ -58,6 +58,195 @@ n1.toFixed(2).replace
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}
 
 
+Operadores
+
+aritmeticos= +, -, *, /, %, **
+() - o parenteses muda a ordem de precedencia dos calculos, ex: 5 + 3 / 2 - aqui a divisão é priorizada, se você colocar (5 + 3) / 2 a soma vai ter prioridade
+
+ordem de precendencia
+()
+
+**
+
+*, /, %
+
++, -
+  
+simplificação: num = 8
+
+num += 8 recebe 10
+num %=2 recebe 0
+
+incrimento 
+var n = 10
+n++ recebe 10
+n recebe 11
+n--
+n recebe 10
+
+atribuição -
+
+relacionais -
+> - maior
+< - menor
+>= - maior ou igual
+<= - menor ou igual
+== - igual
+!= - não igual (diferente)
+
+
+logicos -
+
+! - negação (true ou false)
+&& - conjunção (possuiu dois valores e os dois precisam ser igual para dar um resultado bom)
+|| - disjunção (apenas um dos resultados precisa ser verdadeiro para ter um bom resultado)
+
+
+ternario -
+
+? - 
+: -
+
+teste ? true : false
+
+media >= 7.0 ? "Aprovado" : "Reprovado" 
+
+
+anotações sobre calculos:
+
+supondo que x recebe 5, o calculo abaixo é realizado da seguinte maneira:
+
+x %= 2
+x = 5 % 2 = 1
+
+o resultado é 1 porque a conta é realizada com divisão:
+
+5 dividido por 2 = sobra 1
+
+
+Operadores de Comparação:
+
+== (igualdade - compara apenas o valor):
+
+- Compara dois valores e faz conversão de tipos automatica se forem diferentes.
+
+ex: 5 == '5' // true, pois o java converte a string '5' para numero 5 automaticamente.
+
+
+
+=== (estritamente igual - valor e tipo):
+
+- Compara valor e tipo sem converter nada.
+
+ex: 5 === '5' // False, por que lê como uma string
+
+5 === 5 // true, tipos e valores iguais
+
+
+
+!= (Diferente - compara valor)
+
+- Compara se os valores são diferentes, convertendo tipos se necessário.
+
+ex: 5 != '5' //False, pois 5 == '5' após conversão
+
+0 != false //False, porque ambos são considerados iguais
+
+
+
+!== (estritamente diferente - valor e tipo)
+
+- Retorna 'true' se valores ou tipos forem diferentes, sem conversão.
+
+ex: 5 !== '5' //true (número e string)
+
+5 !== 5 //false 
+
+false !==0 //true
+
+
+
+> (maior que)
+
+
+< (menor que)
+
+
+>= (maior ou igual)
+
+
+<= (menor ou igual)
+
+
+
+O javaScript tenta converter automaticamente os tipos nas comparações que possuem ' == ', ' != ', ' > ', ' < ', etc.
+
+
+
+
+
+-------------------------------------------------------------------------------
+
+Document Objetc Movel: 
+
+Arvore Dom: 
+
+	    Window
+	       |
+location / document / history
+	       |
+	   document	
+	       |
+	   head / body
+	   /	   \
+meta / title -	 h1 / p / p / div
+			\
+			strog
+
+Selecionando: 
+por Marca : getElementsByTagName()
+por ID:  
+por Nome
+por Classe
+por Seletor 
+
+Manipulando o Dom: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
