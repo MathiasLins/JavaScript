@@ -213,15 +213,82 @@ por Seletor
 Manipulando o Dom: 
 
 
+eventos de mouse:
+
+mouseenter = entrou na div
+
+mousemove = movendo dentro da div
+
+mousedown = segurar a div
+
+mouseup = soltar a div
+
+click = clicar na div
+
+mouseout = mover para fora da div
+
+
+Função:
+
+function ação(parametros){}
+
+ex:
+<div id="area" onclick="clicar()">
+
+</div>
 
 
 
+principais objetos e metodos do DOM
+
+-O objeto raiz. representa o documento inteiro.
+
+-Métodos uteis:
+
+document.getElementById(id)
+
+document.getElementsByClassName(class)
+
+document.getElementsByTagName(tag)
+
+document.querySelector(selector)
+
+document.querySelectorAll(selector)
 
 
 
+Acessando elementos: 
+
+| Método                        | Descrição                                 |
+| ----------------------------- | ----------------------------------------- |
+| `getElementById("id")`        | Retorna o elemento com o ID especificado. |
+| `getElementsByClassName("x")` | Retorna uma coleção de elementos.         |
+| `getElementsByTagName("tag")` | Retorna todos os elementos da tag.        |
+| `querySelector(".classe")`    | Retorna o **primeiro** elemento que bate. |
+| `querySelectorAll(".classe")` | Retorna **todos** os elementos.           |
 
 
+Manipulando Conteudo:
 
+| Propriedade / Método     | Descrição                             |
+| ------------------------ | ------------------------------------- |
+| `element.innerHTML`      | Lê ou altera o **HTML interno**.      |
+| `element.innerText`      | Lê ou altera o **texto visível**.     |
+| `element.textContent`    | Lê ou altera o texto (inclui oculto). |
+| `element.setAttribute()` | Define um atributo.                   |
+| `element.getAttribute()` | Obtém o valor de um atributo.         |
+| `element.remove()`       | Remove o elemento do DOM.             |
+
+
+Lista de eventos comuns: 
+
+| Evento      | Ocorre quando...               |
+| ----------- | ------------------------------ |
+| `click`     | o usuário clica em algo        |
+| `mouseover` | o mouse passa sobre o elemento |
+| `keydown`   | uma tecla é pressionada        |
+| `submit`    | um formulário é enviado        |
+| `load`      | a página é carregada           |
 
 
 
