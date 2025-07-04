@@ -6,3 +6,15 @@ if (vel > 60){
 }
 
 console.log(`Dirija sempre usando cinto de segurança!`)
+
+var idade = 19
+
+console.log(`Sua idade é de ${idade} anos`)
+
+    if (idade >= 18){
+    console.log(`você já é maior de idade e pode se alistar!`)
+}
+
+    else{
+    console.log(`Você ainda é menor de idade, terá que esperar até ano que vem!`)
+}
