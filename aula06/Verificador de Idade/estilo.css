@@ -21,3 +21,17 @@ footer{
     color: white;
     text-align: center;
 }
+
+img{
+    width: 350px;
+}
+
+
+img#foto {
+    display: block;           /* Quebra o comportamento inline padrão */
+    margin: 20px auto 0 auto; /* Centraliza horizontalmente */
+    width: 350px;             /* Mantém o tamanho */
+    height: auto;             /* Mantém a proporção */
+    object-fit: cover;        /* Preenche o espaço de forma proporcional */
+    border-radius: 10px;      /* Apenas para deixar mais bonito (opcional) */
+}
